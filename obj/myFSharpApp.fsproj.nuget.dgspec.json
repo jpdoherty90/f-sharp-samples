@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jpdoherty/workspace/f-sharp/myFSharpApp/myFSharpApp.fsproj": {}
+  },
+  "projects": {
+    "/Users/jpdoherty/workspace/f-sharp/myFSharpApp/myFSharpApp.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jpdoherty/workspace/f-sharp/myFSharpApp/myFSharpApp.fsproj",
+        "projectName": "myFSharpApp",
+        "projectPath": "/Users/jpdoherty/workspace/f-sharp/myFSharpApp/myFSharpApp.fsproj",
+        "packagesPath": "/Users/jpdoherty/.nuget/packages/",
+        "outputPath": "/Users/jpdoherty/workspace/f-sharp/myFSharpApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jpdoherty/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
